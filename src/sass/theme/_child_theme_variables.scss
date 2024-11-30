@@ -1,0 +1,18 @@
+//NEW SPACER 
+$spacer: 1.5rem;
+
+//Colors
+$black: #000;
+
+//Fonts
+$open-sans: 'Open Sans', sans-serif;
+
+$offcanvas-horizontal-width: 90%;
+
+@mixin xdFontSize($n) {
+	font-size: ($n * .75) + px;
+}
+
+@mixin xdLineHeight($n) {
+	line-height: ($n * .75) + px;
+}
